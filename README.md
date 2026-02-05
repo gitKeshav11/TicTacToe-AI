@@ -1,57 +1,95 @@
-# 🎮 TicTacToe-AI
+# 🎮 TicTacToe‑AI  
+### 🤖 Smart AI Powered Tic Tac Toe using Minimax Algorithm
 
-> A smart Tic Tac Toe game powered by Artificial Intelligence using the Minimax algorithm.  
-> Play against an unbeatable AI and test your strategy skills 🤖🔥
+> Play Tic Tac Toe against an intelligent AI that never loses.  
+Built with Python and Artificial Intelligence logic using the Minimax algorithm.
 
 ---
 
-## 🧠 About Project
-**TicTacToe-AI** is a Python-based game where you can play Tic Tac Toe against an intelligent computer opponent.  
-The AI uses the **Minimax algorithm**, which makes optimal moves and never loses.
+## 🧠 Project Overview
+**TicTacToe‑AI** is a Python-based game where a human player competes against an intelligent AI opponent.  
+The AI uses the **Minimax algorithm**, a popular decision‑making algorithm in Artificial Intelligence and game theory.
 
-Perfect project for:
-- Students learning AI 🤖
-- Python beginners 🐍
-- DSA & logic practice 🧠
-- GitHub portfolio 💼
+This project demonstrates:
+- Game logic
+- Artificial Intelligence
+- Decision making algorithms
+- Recursion & backtracking
+
+Perfect for students and developers learning AI & Python.
+
+---
+
+## 🤖 How AI Works (Minimax Explanation)
+
+The AI uses the **Minimax Algorithm** to choose the best move.
+
+### 🔍 Working Principle
+- Two players:
+  - **AI → Maximizing player**
+  - **Human → Minimizing player**
+- AI checks all possible future moves
+- Chooses move with best outcome
+
+### 🧠 Scoring System
+- AI win → +1  
+- Human win → -1  
+- Draw → 0  
+
+AI selects the move with highest score.
+
+### 🔁 Recursive Strategy
+Minimax works by:
+1. Checking available moves  
+2. Simulating each move  
+3. Calling itself recursively  
+4. Evaluating result  
+5. Returning best move  
+
+Because Tic Tac Toe has limited possibilities, AI becomes unbeatable.
 
 ---
 
 ## ✨ Features
-- 🤖 Smart AI opponent (Minimax Algorithm)
-- 🎮 Player vs Computer mode
-- 🧠 Optimal move strategy
-- 💻 Clean and simple Python code
-- 🚀 Beginner-friendly project
+- 🤖 Unbeatable AI opponent  
+- 🧠 Minimax decision algorithm  
+- 🎮 Human vs Computer gameplay  
+- 💻 Clean Python logic  
+- 🚀 Beginner-friendly AI project  
 
 ---
 
 ## 🛠️ Tech Stack
-- Python 3
-- Minimax Algorithm
-- CLI (Terminal based game)
+- Python 3  
+- Minimax Algorithm  
+- Recursion & Backtracking  
+- CLI Game  
 
 ---
 
-## 📥 Download Project
-Click below to download this project as ZIP:
-
-https://github.com/kying18/tic-tac-toe/archive/refs/heads/main.zip
-
----
-
-## 🚀 How to Run
-git clone https://github.com/kying18/tic-tac-toe.git  
-cd tic-tac-toe  
+## 📥 Installation & Run
+```bash
+git clone https://github.com/gitKeshav11/TicTacToe-AI.git
+cd TicTacToe-AI
 python game.py
+```
 
 ---
 
-## 🌟 Support
-If you like this project, give it a ⭐ on GitHub.
+## 🌟 Why This Project?
+This project helps you understand:
+- Artificial Intelligence basics  
+- Game strategy algorithms  
+- Python logic building  
+- GitHub portfolio building  
 
 ---
 
 ## 👨‍💻 Author
 **Keshav Upadhyay**  
-Python Developer | AI Enthusiast | Open Source Lover 🚀
+Python Developer | AI Learner | Open Source Enthusiast  
+
+---
+
+## ⭐ Support
+If you like this project, give it a ⭐ on GitHub.
